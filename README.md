@@ -32,7 +32,7 @@ Finalmente, están las ramas ***hotfix***, que básicamente se utilizan para arr
 
 Hay empresas que utilizan otra rama intermedia entre master y develop, que se llama ***release***, que se utiliza, como su nombre indica, para hacer releases de versiones antes de subirlas a master, pero para nosotros no merece la pena utilizarlas.
 
-![](gitglow.png)
+![](Docu/gitglow.png)
 
 ## Pull requests
 Los PRs son solicitudes que se hacen para mergear una rama en otra. Cuando se ha terminado una funcionalidad y se ha pusheado la rama, se abre un PR. Ese PR tiene que tener un título específico con el siguiente formato: **[NO MERGE][PRNº] ID-Tarea Descripción**. El [NO MERGE] solo se pone si ese PR no se puede mergear por algún motivo, pero quieres que el resto del equipo lo vaya validando. El [PRNº] se pone en caso de que una tarea sea muy grande y se haya divido en varios PRs. Por ejemplo: **T-53 Implement universal tag**, **[PR1] T-54 Create endpoint for can matrix**, **[PR2] T-54 Implement CanMatrixRetriever**, **[NO MERGE] T-124 Implement night mode**.

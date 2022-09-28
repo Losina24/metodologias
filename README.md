@@ -71,3 +71,5 @@ Cuando todos los usuarios validan el PR, es la hora de mergearlo.
 Puede ser con Jira, Trello, Asana o herramientas similares. Estas aplicaciones sirven para mantener un flujo de trabajo ordenado y organizar las tareas dentro del equipo. 
 
 Básicamente es un tablero kanban con varias columnas: **Pendiente**, **Bloqueado**, **En proceso**, **Pull Request** y **Terminado**. Las tareas que van surgiendo se van colocando en la columna Pendiente. Cuando una persona empieza una tarea, se la asigna a si mismo y la coloca en la columna En proceso. Ahora pueden pasar dos cosas, que la persona complete la tarea, en cuyo caso se movería a Pull Request mientras los PRs de la tarea están abiertos, o bien que la tarea no se pueda completar por cualquier motivo, en cuyo caso se mueve a la columna Bloqueado y se expone en un comentario el motivo por el cuál no se ha podido terminar.
+
+Una vez todos los PR han sido validados y mergeados, y se haya testeado que se cumplen los requisitos de la tarea, esta puede pasarse a Terminado

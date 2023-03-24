@@ -10,6 +10,7 @@ En este documento voy a definir una serie de buenas prácticas y metodologías d
 - [Flujo de trabajo con Jira](#flujo-de-trabajo-con-jira)
 
 
+
 </details>
 
 ## Flujo de trabajo para el control de versión
